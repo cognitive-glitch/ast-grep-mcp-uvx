@@ -1,4 +1,4 @@
-# ast-grep MCP Server
+# ast-grep MCP Server with uv/uvx support
 
 An experimental [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that provides AI assistants with powerful structural code search capabilities using [ast-grep](https://ast-grep.github.io/).
 
@@ -51,7 +51,7 @@ This MCP server enables AI assistants (like Cursor, Claude Desktop, etc.) to sea
 You can run the server directly from GitHub using `uvx`:
 
 ```bash
-uvx --from git+https://github.com/ast-grep/ast-grep-mcp ast-grep-server
+uvx --from git+https://github.com/cognitive-glitch/ast-grep-mcp-uvx ast-grep-server
 ```
 
 This is useful for quickly trying out the server without cloning the repository.
